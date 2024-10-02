@@ -1,0 +1,58 @@
+/* Body styling */
+body {
+    background: linear-gradient(to right, #fff8e1, #ffe0b2); /* Soft peach gradient reminiscent of food */
+}
+
+/* Navbar styling */
+.custom-navbar {
+    background: #4caf50; /* Dark green color for the navbar */
+}
+
+/* Navbar text color */
+.navbar-nav .nav-link {
+    color: #ffffff; /* White color for text in the navbar */
+}
+
+/* Jumbotron styling */
+.jumbotron {
+    background: #ffccbc; /* Light peach color for the jumbotron */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Form styling */
+.donation-form {
+    background: linear-gradient(to right, #a5d6a7, #81c784); /* Light green gradient for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Short input fields styling */
+.short-input {
+    width: 80%; /* Shortened width */
+    margin: auto; /* Centering the input fields */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #a5d6a7; /* Light border color */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4caf50; /* Vibrant green for the submit button */
+    color: white; /* White text color for submit button */
+    border: none; /* No border */
+    padding: 12px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Transition effect */
+    border-radius: 25px; /* Rounded button */
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c; /* Darker shade on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff7043; /* A deeper orange for footer */
+}

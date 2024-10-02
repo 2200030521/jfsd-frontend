@@ -1,0 +1,42 @@
+/* External CSS for Reduce Food Wastage Platform */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #BDE8CA;
+}
+
+/* Custom navbar to ensure background color */
+.custom-navbar {
+    background-color: #BDE8CA !important; /* Ensuring the custom background color */
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+}
+
+img.img-fluid {
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Highlighting the website name */
+.highlight { 
+    font-weight: bold; /* Make it bold */
+    color: #4CAF50; /* Change color to a shade of green */
+    font-size: 1.5rem; /* Increase the font size */
+}

@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    background-image: url('../Images/img4.jpg'); /* Add your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fix the image to the viewport */
+    font-family: 'Arial', sans-serif;
+    color: #000; /* Text color */
+}
+
+/* Navbar Styles */
+.custom-navbar {
+    background:#BDE8CA;
+}
+
+.nav-link {
+    color: #000000; /* White color for navbar links */
+}
+
+h1 {
+    color: #2e7d32; /* Dark green color for heading */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555; /* Gray color for paragraph */
+    font-size: 1.2em;
+}
+
+/* Form Styles */
+.request-form {
+    background: rgba(255, 255, 255, 0.9); /* Light background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #BDE8CA; /* White background for the footer */
+    color: #555;
+    width: 100%;
+    position: relative;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 20px; /* Less padding for smaller screens */
+    }
+
+    .request-form {
+        width: 100%; /* Full width on small screens */
+    }
+}

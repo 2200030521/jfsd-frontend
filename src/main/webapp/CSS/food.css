@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.header {
+    background: #BDE8CA;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    padding: 30px;
+}
+.content h2 {
+    color: #28a745;
+}
+.card {
+    margin: 20px 0;
+}
+.footer {
+    background: #BDE8CA;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #BDE8CA; /* Light green background */
+}
+
+.custom-navbar {
+    background-color: #343a40; /* Dark background for navbar */
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff; /* White text for navbar links */
+}
+
+.jumbotron {
+    background-color: #ffffff; /* White background for jumbotron */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.donation-form {
+    background: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Max width for form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text for footer */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green button */
+    border-color: #28a745; /* Green border */
+}
